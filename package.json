@@ -1,0 +1,31 @@
+{
+  "name": "filter-keywords",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "eslint": "^3.9.1",
+    "eslint-config-standard": "^6.2.1",
+    "eslint-config-standard-react": "^4.2.0",
+    "eslint-plugin-promise": "^3.3.1",
+    "eslint-plugin-react": "^6.6.0",
+    "eslint-plugin-standard": "^2.0.1",
+    "gramophone": "0.0.3",
+    "immutable": "^3.8.1",
+    "keyword-extractor": "0.0.13",
+    "react-redux": "^4.4.5",
+    "react-scripts": "0.7.0",
+    "redux": "^3.6.0"
+  },
+  "dependencies": {
+    "react": "^15.3.2",
+    "react-dom": "^15.3.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "deploy": "gh-pages -d build"
+  },
+  "homepage": "https://secretbase.github.io/filter-keywords/"
+}
